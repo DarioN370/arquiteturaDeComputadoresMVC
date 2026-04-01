@@ -9,10 +9,10 @@ Este repositório contém o código-fonte de um projeto desenvolvido do zero dur
 
 ## 📁 Estrutura da Arquitetura MVC
 
-O projeto foi organizado separando as responsabilidades para facilitar a manutenção e escalabilidade do código:
+O projeto foi organizado separando as responsabilidades para facilitar a manutenção e escalabilidade do código de acordo com cada ideia de sistema a ser desenvolvida:
 
 * **Model (Modelo):** Camada responsável pela lógica de negócios e interação com o banco de dados. Gerencia os dados da aplicação.
-* **View (Visão):** Camada responsável pela interface com o usuário. É o que o cliente vê e interage.
+* **View (Visão):** Camada responsável pela interface com o usuário. É o que o cliente vê e interage. o Front-end do nosso projeto
 * **Controller (Controlador):** O "cérebro" que faz a ponte entre o Model e a View. Recebe as requisições do usuário, processa os dados no Model e envia a resposta para a View.
 
 ## ⚙️ Como rodar o projeto
@@ -35,5 +35,5 @@ O projeto foi organizado separando as responsabilidades para facilitar a manuten
     ```
 
 ---
-👤 **Desenvolvido por Neto**
+👤 **Desenvolvido por Dario Neto**
 🔗 [GitHub - DarioN370](https://github.com/DarioN370)
