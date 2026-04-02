@@ -6,6 +6,17 @@ const app = express()
 const conn = require('./database/conn.js')
 //requerendo o model task
 const taks = require('./model/task')
+//requerer a rota das task
+const taskRouter = require('./routers/taskRouter')
+const path = require('path')
+
+
+app.use(express.urlencoded({extended:false}))
+app.set('engine view', 'ejs')
+app.set('view', path.join(__dirname,'src', 'views'))
+
+
+app.use('/task', taskRouter)
 
 //exportando a lib
 module.exports = app
